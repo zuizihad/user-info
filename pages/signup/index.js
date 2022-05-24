@@ -17,7 +17,6 @@ const Signup = () => {
     const [state,] = useStore();
     const user = getValue(state, ['user'], null)
 
-    const notify = () => toast("Wow so easy!");
 
     const signupHandler = async (e) => {
         e.preventDefault();
