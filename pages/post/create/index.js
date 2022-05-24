@@ -64,7 +64,7 @@ const PostCreatePage = () => {
                 <div className='row'>
                     <div className="col">
                         <input
-                            type="text"
+                            type="email"
                             className="form-control"
                             id="floatingPoint"
                             placeholder="Enter Email"
@@ -76,7 +76,7 @@ const PostCreatePage = () => {
                 <div className='row'>
                     <div className="col">
                         <input
-                            type="text"
+                            type="number"
                             className="form-control"
                             id="floatingPoint"
                             placeholder="Enter Phone"
@@ -123,7 +123,7 @@ const PostCreatePage = () => {
                 </div>
                 <div className='row'>
                     <div className="col">
-                        <button>submit</button>
+                        <button style={{ padding: '10px', backgroundColor: 'blue', color: 'white' }}>submit</button>
                     </div>
                 </div>
             </form>

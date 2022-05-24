@@ -4,8 +4,8 @@ import styles from './style.module.css'
 const Info = ({ currentItems }) => {
     return (
         <div style={{ marginTop: '20px' }}>
-            <div classNameName="row">
-                <div classNameName={`container ${styles['cards-list']}`}>
+            <div className="row">
+                <div className={`container ${styles['cards-list']}`}>
                     {
                         currentItems && currentItems.map(item => (
                             <div className={styles['card']}>
@@ -17,6 +17,10 @@ const Info = ({ currentItems }) => {
                                 <span>Profession: {item.profession}</span>
                             </div>
                         ))
+                    }
+                    {
+                        currentItems && currentItems.length === 0 &&
+                        <h3>No Information Available</h3>
                     }
                 </div>
             </div>

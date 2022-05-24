@@ -44,7 +44,7 @@ export default function Home({ items }) {
 
     return (
       <>
-        <input type="text" placeholder="search here" value={searchTxt} onChange={(e) => setSearchTxt(e.target.value)} />
+        {/* <input type="text" placeholder="search here" value={searchTxt} onChange={(e) => setSearchTxt(e.target.value)} /> */}
         <Info currentItems={currentItems} />
         <ReactPaginate
           nextLabel="next >"

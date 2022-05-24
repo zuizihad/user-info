@@ -1,4 +1,3 @@
-import multer from 'multer';
 import { getSession } from "next-auth/react"
 import nc from 'next-connect';
 import slugify from 'slugify';
