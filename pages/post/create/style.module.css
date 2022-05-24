@@ -1,0 +1,8 @@
+.post-create {
+    margin: 10px auto;
+}
+
+.post-create input,
+.post-create textarea {
+    margin-bottom: 10px;
+}
